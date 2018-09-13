@@ -1,4 +1,5 @@
 ##使用CC组件如何单独编译
+```groovy
 //默认的作为application运行时Manifest文件路径
             def debugManifest = 'src/main/debug/AndroidManifest.xml'
             if (runAsApp && project.file(debugManifest).exists()) {
@@ -26,11 +27,20 @@
                     res.srcDirs = ['src/main/res', 'src/main/debug/res']
                 }
             }
+```            
+            
 根据CC-Setting这段代码，在src/main/目录下新建debug目录，
 单独运行时：
 	1.使用debug目录下的AndroidManifest.xml;
 	2.debug目录下的java,assets,res添加到常规目录下
 
 ## 资源冲突解决
- resourcePrefix "example_"
+```
+resourcePrefix "example_"
+```
+ 
  之后需要手动吧颜色资源，String资源，图片，xml等加上example_前缀
+ 
+ 
+ ##Markdown 新手指南
+ ![]https://www.jianshu.com/p/q81RER

@@ -1,6 +1,7 @@
 ##首次提交项目到github
 1.在当前项目下使用git命令初始化该目录
-git init
+```git init
+```
 2.在GitHub上创建和本地项目的同名分支
 3.使用命令关联本地库和github远程库
 $ git remote add origin https://github.com/anthonywj/AnthonyArchitecture.git
