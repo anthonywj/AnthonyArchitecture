@@ -1,4 +1,4 @@
-####首次提交项目到github  
+#### 首次提交项目到github  
 
 1. 在当前项目下使用git命令初始化该目录  
 git init  
@@ -15,7 +15,7 @@ git pull--rebase origin master
 $ git push -u origin master //首次提交  
 $ git push origin master //非首次提交  
 
-####组件化框架CC  
+#### 组件化框架CC  
 
 1.在工程根目录的build.gradle中添加组件自动注册插件
 ```groovy
