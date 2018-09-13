@@ -2,7 +2,7 @@
 common tools
 
 
-#首次提交项目到github
+##首次提交项目到github
 1.在当前项目下使用git命令初始化该目录
 git init
 2.在GitHub上创建和本地项目的同名分支
