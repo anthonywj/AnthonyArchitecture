@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.anthony.example">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".MyApp"
+        android:allowBackup="false"
+        android:icon="@mipmap/example_ic_launcher"
+        android:label="@string/example_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/example_AppTheme">
+
+        <activity android:name=".ExampleMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
