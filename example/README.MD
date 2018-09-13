@@ -36,11 +36,10 @@
 	2. debug目录下的java,assets,res添加到常规目录下
 
 ## 资源冲突解决
-```
+```groovy
 resourcePrefix "example_"
-```
- 
- 之后需要手动吧颜色资源，String资源，图片，xml等加上example_前缀
+```  
+之后需要手动吧颜色资源，String资源，图片，xml等加上example_前缀
  
  
  ## Markdown 新手指南
