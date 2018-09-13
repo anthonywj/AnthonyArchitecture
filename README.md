@@ -1,4 +1,5 @@
-##首次提交项目到github
+####首次提交项目到github  
+
 1. 在当前项目下使用git命令初始化该目录  
 git init  
 2. 在GitHub上创建和本地项目的同名分支
@@ -12,8 +13,10 @@ git commit -m "first commit"
 git pull--rebase origin master
 7. 提交本地到远程库  
 $ git push -u origin master //首次提交  
-$ git push origin master //非首次提交
-##组件化框架CC
+$ git push origin master //非首次提交  
+
+####组件化框架CC  
+
 1.在工程根目录的build.gradle中添加组件自动注册插件
 ```groovy
 buildscript {
